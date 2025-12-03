@@ -112,16 +112,16 @@ st.write('___')
 
 
 #ajouter une image
-st.image("1_intro/bird.jpg", caption="Image : Oiseau, Flottant, Baies. Utilisation gratuite. (Pixabay)")
+st.image("bird.jpg", caption="Image : Oiseau, Flottant, Baies. Utilisation gratuite. (Pixabay)")
 st.write('___')
 
 #ajouter une video
-video_file = open("1_intro/escargot.mp4", "rb") 
+video_file = open("escargot.mp4", "rb") 
 video_bytes = video_file.read()
 st.video(video_bytes) 
 st.write('___')
 
 
 #ajouter une piste audio
-st.audio("1_intro/christmas-is-christmas-60s.mp3", format="audio/mpeg", loop=True)
+st.audio("christmas-is-christmas-60s.mp3", format="audio/mpeg", loop=True)
 st.write('___')
